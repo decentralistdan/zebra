@@ -32,9 +32,9 @@ them:
 
 - To generate transactions, [run Zebra with `lightwalletd`](https://zebra.zfnd.org/user/lightwalletd.html).
 - To generate blocks, use a mining pool or miner with Zebra's mining JSON-RPCs.
-  Currently Zebra can only send mining rewards to a single fixed address.
+  Currently, Zebra can only send mining rewards to a single fixed address.
   To distribute rewards, use mining software that creates its own distribution transactions,
-  a light wallet or the `zcashd` wallet.
+  a light wallet, or the `zcashd` wallet.
 
 Please [join us on Discord](https://discord.gg/na6QZNd) if you'd like to find
 out more or get involved!
@@ -72,7 +72,7 @@ Below are quick summaries for installing the dependencies on your machine.
 [//]: # "The empty line in the `summary` tag below is required for correct Markdown rendering."
 <details><summary>
 
-#### General instructions for installing dependencies
+#### General instructions for installing dependencies:
 </summary>
 
 1. Install [`cargo` and `rustc`](https://www.rust-lang.org/tools/install).
